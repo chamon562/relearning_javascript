@@ -12,7 +12,10 @@
     <!-- <p id="someText"></p> -->
     <script>
         // take json code, json is valid javscript
-        let students = [
+        // in order to represent this array of objects 
+        // have to parse by puting back ticks arround the entire object `[]`
+        // and turn into a string.
+        let students = `[
             {
                 "Dota2Heroes": {
                     "Axe": {
@@ -48,7 +51,7 @@
                     }
                 }
             }
-        ];
+        ]`;
         console.log(students)
 
     </script>
