@@ -399,6 +399,9 @@ switch (6) {
     case 6:
         text = "weekend";
     // default is like the else
+    // you dont want it to go through all the cases because it will always default to weekday
+    // so use break statement
+    break;
     default:
         text = "weekday";
 }
