@@ -391,7 +391,11 @@ isSuper();
 // 0 is sunday
 // 6 is saturday
 // 4 is thursday is a "weekday"
-switch(6){
-    case 0 : 
-    text = "weekend";
+switch (6) {
+    case 0:
+        text = "weekend";
+    case 5:
+        text = "weekend";
+    case 6:
+        text = "weekend";
 }
