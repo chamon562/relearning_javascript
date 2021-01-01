@@ -386,4 +386,9 @@ isSuper = () => {
 
 isSuper();
 
-
+// switch statements
+// how do we differntiate between weekday and weekends
+// 0 is sunday
+// 6 is saturday
+// 4 is thursday is a "weekday"
+switch()
