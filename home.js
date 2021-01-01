@@ -391,17 +391,19 @@ isSuper();
 // 0 is sunday
 // 6 is saturday
 // 4 is thursday is a "weekday"
-switch (6) {
+switch (3) {
     case 0:
         text = "weekend";
+        break;
     case 5:
         text = "weekend";
+        break;
     case 6:
         text = "weekend";
-    // default is like the else
-    // you dont want it to go through all the cases because it will always default to weekday
-    // so use break statement
-    break;
+        // default is like the else
+        // you dont want it to go through all the cases because it will always default to weekday
+        // so use break statement to break out of loop
+        break;
     default:
         text = "weekday";
 }
