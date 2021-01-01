@@ -408,3 +408,4 @@ switch (3) {
         text = "weekday";
 }
 console.log(text);
+
