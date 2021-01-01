@@ -398,4 +398,7 @@ switch (6) {
         text = "weekend";
     case 6:
         text = "weekend";
+// default is like the else
+    default:
+        text = "weekday";
 }
