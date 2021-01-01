@@ -3,4 +3,4 @@
 ## JSON
 - json stands for "javascript object notation"
 - is used to represent data
-- is used for api to carry information 
+- Generally used for api's to carry information thats very light weight (api's & configuration).
