@@ -1,0 +1,16 @@
+[
+    {
+        "Dota2Heroes": {
+            "Axe": {
+                "name": "Axe",
+                "MainStat": "Strength",
+                "MainRole": "Tank"
+            },
+            "HoodWink":{
+                "name": "Hood Wink",
+                "MainStat": "Agility",
+                "MainRole": "Burst & Crowd Control"
+            }
+        }
+    }
+]
