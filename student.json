@@ -1,27 +1,37 @@
 [
-    {
-        "Dota2Heroes": {
-            "Axe": {
-                "name": "Axe",
-                "MainStat": "Strength",
-                "MainRole": "Tank"
-            },
-            "HoodWink":{
-                "name": "Hood Wink",
-                "MainStat": "Agility",
-                "MainRole": "Burst & Crowd Control"
-            }
+  {
+    "Dota2Heroes": {
+      "Axe": {
+        "name": "Axe",
+        "MainStat": "Strength",
+        "MainRole": "Tank"
+      },
+      "HoodWink": {
+        "name": "Hood Wink",
+        "MainStat": "Agility",
+        "MainRole": "Burst & Crowd Control"
+      }
+    }
+  },
+  {
+    "Students": {
+      "student1": {
+        "firstName": "Channee",
+        "lastName": "Math",
+        "age": "35",
+        "height": {
+          "feet": 5,
+          "inches": 9
         }
-    },
-    {
-        "Students":{
-            "firstName": "Channee",
-            "lastName": "Math",
-            "age": "35",
-            "height": {
-                "feet": 5,
-                "inches": 9
-            }
+      }
+    }, "student2":{
+        "firstName": "Joe",
+        "lastName": "Shmoe",
+        "age": 23,
+        "height":{
+            "feet": 5,
+            "inches": 6
         }
     }
+  }
 ]
