@@ -333,15 +333,15 @@ console.log(person);
 // prompt("what is your age?") will alert and ask the user to input the age but nothing will happen only an error
 // set prompt to a variable let age = prompt("...")
 // let age = prompt("What is your age?")
-if ((age >= 18) && (age <= 35)) {
-    status = "target demo";
-    console.log(age + " " + status);
+// if ((age >= 18) && (age <= 35)) {
+//     status = "target demo";
+//     console.log(age + " " + status);
 
-} else {
-    status = "not my audience";
-    console.log(age + " " + status);
+// } else {
+//     status = "not my audience";
+//     console.log(age + " " + status);
 
-}
+// }
 
 let targetAge = [17, 18, 19, 20, 25, 32, 35, 40, 37]
 
@@ -398,7 +398,8 @@ switch (6) {
         text = "weekend";
     case 6:
         text = "weekend";
-// default is like the else
+    // default is like the else
     default:
         text = "weekday";
 }
+console.log(text);
