@@ -12,5 +12,16 @@
                 "MainRole": "Burst & Crowd Control"
             }
         }
+    },
+    {
+        "Students":{
+            "firstName": "Channee",
+            "lastName": "Math",
+            "age": "35",
+            "height": {
+                "feet": 5,
+                "inches": 9
+            }
+        }
     }
 ]
