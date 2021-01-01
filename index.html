@@ -1,13 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1 id="someText"></h1>
     <!-- <p id="someText"></p> -->
-    <script src="home.js"></script>
+    <script>
+        // take json code, json is valid javscript
+        let students = [
+            {
+                "Dota2Heroes": {
+                    "Axe": {
+                        "name": "Axe",
+                        "MainStat": "Strength",
+                        "MainRole": "Tank"
+                    },
+                    "HoodWink": {
+                        "name": "Hood Wink",
+                        "MainStat": "Agility",
+                        "MainRole": "Burst & Crowd Control"
+                    }
+                }
+            },
+            {
+                "Students": {
+                    "student1": {
+                        "firstName": "Channee",
+                        "lastName": "Math",
+                        "age": "35",
+                        "height": {
+                            "feet": 5,
+                            "inches": 9
+                        }
+                    }
+                }, "student2": {
+                    "firstName": "Joe",
+                    "lastName": "Shmoe",
+                    "age": 23,
+                    "height": {
+                        "feet": 5,
+                        "inches": 6
+                    }
+                }
+            }
+        ];
+        console.log(students)
+
+    </script>
+    <!-- <script src="home.js"></script> -->
 </body>
+
 </html>
