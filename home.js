@@ -332,7 +332,7 @@ console.log(person);
 // tutorial uses a prompt 
 // prompt("what is your age?") will alert and ask the user to input the age but nothing will happen only an error
 // set prompt to a variable let age = prompt("...")
-let age = prompt("What is your age?")
+// let age = prompt("What is your age?")
 if ((age >= 18) && (age <= 35)) {
     status = "target demo";
     console.log(age + " " + status);
